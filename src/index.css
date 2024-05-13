@@ -1113,20 +1113,12 @@ body::-webkit-scrollbar {
   }
 
   .container {
-    flex-direction: column;
-    height: initial;
-    width: 100%;
-    max-width: 800px;
     border-radius: 8px;
     overflow: hidden;
   }
 
   .search-results {
     width: 100%;
-  }
-
-  .job-details {
-    display: none;
   }
 
   .footer {
