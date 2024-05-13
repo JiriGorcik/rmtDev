@@ -1113,6 +1113,12 @@ body::-webkit-scrollbar {
   }
 
   .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    height: initial;
     border-radius: 8px;
     overflow: hidden;
   }
@@ -1121,10 +1127,19 @@ body::-webkit-scrollbar {
     width: 100%;
   }
 
+  .sidebar {
+    width: 100%;
+  }
+
+  .job-details__footer {
+    padding-bottom: 10px;
+  }
+
   .footer {
     max-width: 800px;
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 20px;
   }
 }
 
